@@ -9,11 +9,11 @@ const Footer = ({ text }) => {
     };
 
     return (
-        <div>
+        <footer>
             <h1>Footer</h1>
             <button onClick={handleClick}>Footer</button>
             {showFooter && <p className='footer'>{text}</p>}
-        </div>
+        </footer>
     );
 }
 

@@ -9,11 +9,11 @@ const Main = ({ text }) => {
     };
 
     return (
-        <div>
+        <main>
             <h1>Main</h1>
             <button onClick={handleClick}>Main</button>
             {showMain && <p className='main'>{text}</p>}
-        </div>
+        </main>
     );
 }
 

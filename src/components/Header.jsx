@@ -9,11 +9,11 @@ const Header = ({ text }) => {
     };
 
     return (
-        <div>
+        <header>
             <h1>Header</h1>
             <button onClick={handleClick}>Header</button>
             {showHeader && <p className='header'>{text}</p>}
-        </div>
+        </header>
     );
 }
 
